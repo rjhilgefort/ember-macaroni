@@ -1,6 +1,6 @@
 {
   "name": "ember-macaroni",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Keep your app code DRY and copypasta free with computed property macaronis (macros)",
   "directories": {
     "doc": "doc",
@@ -18,6 +18,17 @@
     "node": ">= 0.10.0"
   },
   "author": "Lauren Tan",
+  "contributors": [
+    {
+      "name": "Rob Hilgefort",
+      "email": "rjhilgefort@gmail.com",
+      "url": "https://github.com/rjhilgefort"
+    },
+    {
+      "name": "Nick Jutte",
+      "url": "https://github.com/njutte"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
