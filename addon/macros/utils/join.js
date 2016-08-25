@@ -4,7 +4,7 @@ const { get } = Ember;
 
 export default function join(target, separator, ...dependentKeys) {
   // Default to space if no seperator is specified
-  if (!separator) {
+  if (typeof separator !== "string") {
     separator = " ";
   }
 
